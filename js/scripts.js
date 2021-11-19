@@ -15,11 +15,19 @@ function roboger(number) {
     } else if (i.toString().indexOf(1) > -1) {
       resultArray.push("Beep!");
     } else {
-      resultArray.push(i);
+      resultArray.push(i.toString());
     }
   }
-return resultArray;
+return resultArray.join(", ");
 }
 
 //UI LOGIC
 
+$(document).ready(function() {
+  $("form#number-form").submit(function(event) {
+    event.preventDefault();
+    const number = parseInt($("input#number").val());
+    const result = roboger(number);
+    $("#results").html(result);
+  });
+});
