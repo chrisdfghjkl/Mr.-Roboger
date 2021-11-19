@@ -28,6 +28,6 @@ $(document).ready(function() {
     event.preventDefault();
     const number = parseInt($("input#number").val());
     const result = roboger(number);
-    $("p").html(result);
+    $("#results").html(result);
   });
 });
