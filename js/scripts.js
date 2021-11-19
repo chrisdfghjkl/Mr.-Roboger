@@ -8,4 +8,4 @@ function roboger(number) {
   }
   return resultArray;
 }
-roboger(0)
+roboger(5)
