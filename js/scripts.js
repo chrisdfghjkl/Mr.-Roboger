@@ -4,8 +4,10 @@ function roboger(number) {
   let resultArray = [];
   
   for (let i = 0; i <= number; i++) {
-    resultArray.push(i);
+    if (i.toString().indexOf(1) > -1) {
+      return true
+    }
   }
-  return resultArray;
+  return false;
 }
 roboger(5)
