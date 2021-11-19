@@ -5,9 +5,11 @@ function roboger(number) {
   
   for (let i = 0; i <= number; i++) {
     if (i.toString().indexOf(1) > -1) {
-      return true
+      resultArray.push("TEST");
+    } else {
+      resultArray.push(i);
     }
   }
-  return false;
+return resultArray;
 }
 roboger(5)
