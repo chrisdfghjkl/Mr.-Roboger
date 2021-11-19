@@ -1,4 +1,4 @@
-// Business Logic
+// BUSINESS LOGIC
 
 function roboger(number) {
   if (number < 0) {
@@ -20,4 +20,6 @@ function roboger(number) {
   }
 return resultArray;
 }
-roboger(13)
+
+//UI LOGIC
+
