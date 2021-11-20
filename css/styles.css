@@ -15,14 +15,15 @@ body {
   padding: 15px;
   border-radius: 3px;
   box-shadow: 5px 3px 7px rgb(61, 23, 23);
-  margin-top: 25px
-  /*display: none*/;
+  margin-top: 25px;
+  display: none;
 }
 
 .jumbotron {
   box-shadow: 5px 3px 7px rgb(61, 23, 23);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 #number-form {
@@ -40,4 +41,10 @@ body {
 
 #results {
   text-align: justify;
+}
+
+#thanks {
+  text-align: center;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
