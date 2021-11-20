@@ -28,7 +28,7 @@ $(document).ready(function() {
     event.preventDefault();
     const number = parseInt($("input#number").val());
     const result = roboger(number);
-    $("#form-results").show();
+    $("#form-results").fadeIn();
     $("#results").html(result);
   });
 });
