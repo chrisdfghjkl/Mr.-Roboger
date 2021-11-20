@@ -9,11 +9,11 @@ function roboger(number) {
   
   for (let i = 0; i <= number; i++) {
     if (i.toString().indexOf(3) > -1) {
-      resultArray.push("Won't you be my neighbor?");
+      resultArray.push("'Won't you be my neighbor?'");
     } else if (i.toString().indexOf(2) > -1) {
-      resultArray.push("Boop!");
+      resultArray.push("'Boop!'");
     } else if (i.toString().indexOf(1) > -1) {
-      resultArray.push("Beep!");
+      resultArray.push("'Beep!'");
     } else {
       resultArray.push(i.toString());
     }
