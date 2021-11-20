@@ -35,4 +35,5 @@ Epicodus independent project for Arrays and Looping section. Create a web applic
 
 ### License
 [MIT] (https://opensource.org/licenses/MIT)
+
 Copyright (c) 2021 Christopher DePastene
