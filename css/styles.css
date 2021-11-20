@@ -1,4 +1,43 @@
-.form-results{
-  border: 2px solid black;
+body {
+  background-color: rgb(117, 44, 44);
+}
+
+.blockquote {
+  font-family: monospace;
+  margin-top: 15px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#form-results{
+  border: 2px solid #eee;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 5px 3px 7px rgb(61, 23, 23);
+  margin-top: 25px
+  /*display: none*/;
+}
+
+.jumbotron {
+  box-shadow: 5px 3px 7px rgb(61, 23, 23);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#number-form {
+  border: 2px solid #eee;
+  background-color: #eee;
   padding: 10px;
+  border-radius: 3px;
+  box-shadow: 5px 3px 7px rgb(61, 23, 23);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#result-intro {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#results {
+  text-align: justify;
 }
