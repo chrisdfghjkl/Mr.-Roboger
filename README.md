@@ -2,7 +2,7 @@
 
 ##### By Chris DePastene
 #
-#
+
 ### Description
 Epicodus independent project for Arrays and Looping section. Create a web application that takes a number from the user and returns a range of numbers from 0 to the user inputted number with the following substitutions made within the returned range:
 
