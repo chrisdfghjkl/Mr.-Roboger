@@ -26,7 +26,7 @@ return resultArray.join(", ");
 $(document).ready(function() {
   $("form#number-form").submit(function(event) {
     event.preventDefault();
-    const number = parseInt($("input#number").val());
+    const number = $("input#number").val();
     const result = roboger(number);
     $("#form-results").slideDown();
     $("#number-form").slideUp();
