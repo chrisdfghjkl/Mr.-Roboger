@@ -28,7 +28,16 @@ $(document).ready(function() {
     event.preventDefault();
     const number = parseInt($("input#number").val());
     const result = roboger(number);
-    $("#form-results").fadeIn();
+    $("#form-results").slideDown();
+    $("#number-form").slideUp();
     $("#results").html(result);
+  });
+});
+
+$(document).ready(function() {
+  $("#image").click(function(event) {
+    event.preventDefault();
+    $("#form-results").slideUp();
+    $("#number-form").slideDown();
   });
 });
